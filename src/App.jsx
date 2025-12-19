@@ -14,6 +14,8 @@ function App() {
     setTasks(tasks.filter((_, i) => i !== index));
   };
 
+  console.log("Rendering App with tasks:", tasks);
+
   return (
     <div style={{ padding: "20px" }}>
       <h2>Simple To-Do</h2>
